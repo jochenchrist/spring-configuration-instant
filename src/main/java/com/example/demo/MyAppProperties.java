@@ -10,6 +10,7 @@ import java.time.Instant;
 public class MyAppProperties {
 
     Instant myinstant;
+    Instant mytimestamp;
 
     public Instant getMyinstant() {
         return myinstant;
@@ -17,5 +18,13 @@ public class MyAppProperties {
 
     public void setMyinstant(Instant myinstant) {
         this.myinstant = myinstant;
+    }
+
+    public Instant getMytimestamp() {
+        return mytimestamp;
+    }
+
+    public void setMytimestamp(Instant mytimestamp) {
+        this.mytimestamp = mytimestamp;
     }
 }

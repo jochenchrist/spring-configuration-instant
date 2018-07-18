@@ -27,6 +27,7 @@ public class DemoApplication implements CommandLineRunner {
     @Override
     public void run(String... strings) {
         System.out.println("Instant: " + properties.getMyinstant());
+        System.out.println("Instant: " + properties.getMytimestamp());
     }
 
 }
